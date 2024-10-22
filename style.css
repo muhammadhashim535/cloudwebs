@@ -18,11 +18,16 @@ body {
 
 h1 {
     color: #333;
-    transition: color 0.3s;
+    transition: color 0.3s, transform 0.1s;
+    cursor: pointer; /* Add pointer cursor */
 }
 
 h1:hover {
     color: #007BFF;
+}
+
+h1:active {
+    transform: translateY(5px); /* Move down when clicked */
 }
 
 p {
