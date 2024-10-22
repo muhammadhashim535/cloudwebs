@@ -1,2 +1,2 @@
-document.getElementById("roll-number").innerText = "AS 21SW46";
+document.getElementById("roll-number").innerText = "21SW46";
 
